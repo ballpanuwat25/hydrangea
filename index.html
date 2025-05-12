@@ -6,22 +6,28 @@
     <title>Hydrangea</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
     <style>
-        body, html {
+        html {
+            background-color: red;
+        }
+
+        body {
             margin: 0;
             overflow: hidden;
-            min-height: 100dvh;
+            height: 100vh;
             background: linear-gradient(to top, #4C6EDE, #fff);
+            display: flex;
         }
         
         canvas {
             width: 100vw;
-            height: 100dvh;
+            height: 100vh;
             display: block;
         }
 
         #root {
             height: 100%;
         }
+        
     </style>
 </head>
 <body>
